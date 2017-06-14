@@ -1,5 +1,5 @@
 # Page URL
-[manivela.github.io](https://manivela.github.io/)
+[Manivela.github.io](https://manivela.github.io/)
 
 ## Welcome to GitHub Pages
 
