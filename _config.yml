@@ -19,13 +19,25 @@ description: > # this means to ignore newlines until "baseurl:"
   This blog is where all the things I don't know what to do with goes. 
   Expect to see unrelated posts from different topics.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://manivela.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ynsglc
 github_username:  Manivela
+
+# Disqus settings
+disqus_shortname: ynsglc
 
 # Git Settings
 github: [metadata]
 repository: Manivela/Manivela.github.io
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      comments: true
 
 # Build settings
 markdown: kramdown
