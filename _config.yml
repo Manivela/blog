@@ -16,7 +16,7 @@
 title: Yunus Gülcü
 email: yunus.gulcu35@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is where all the things I don't know what to do with goes. 
+  This blog is where all the things I don't know what to do with goes. 
   Expect to see unrelated posts from different topics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
