@@ -187,6 +187,8 @@ GEM
       ethon (>= 0.8.0)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2017.2)
+      tzinfo (>= 1.0.0)
     unicode-display_width (1.2.1)
 
 PLATFORMS
@@ -194,6 +196,12 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed (~> 0.6)
+  minima (~> 2.0)
+  tzinfo-data
+
+RUBY VERSION
+   ruby 2.2.6p396
 
 BUNDLED WITH
    1.15.1
