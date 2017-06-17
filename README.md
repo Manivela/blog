@@ -1,6 +1,3 @@
-# Page URL
-You can access my blog over at [Manivela.github.io](https://manivela.github.io/)
-
 # Installation Guide
 1. Download and install [rubyinstaller-2.2.6-x64](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe)
 
