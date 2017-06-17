@@ -38,7 +38,7 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       comments: true
-
+excerpt_separator: "" # disable excerpts
 # Build settings
 markdown: kramdown
 theme: minima

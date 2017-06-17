@@ -8,27 +8,29 @@ def ask message
 print message
 STDIN.gets.chomp
 end
+
+# Print before the task is complete
+STDOUT.sync = true
 title = ask('Title: ')
 
 #Create new a post
-desc "Default 'rake' command creates a new post"
-task :default do
-  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.gsub(/\s/, '_').downcase}.markdown"
+desc "Default command runs the 'new' command"
+task default: %w[new]
+
+desc "'new' command creates a new post"
+task :new do
+  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.gsub(/\s/, '-').downcase}.markdown"
   path = File.join("_posts", filename)
   if File.exist? path; raise RuntimeError.new("File exists #{path}"); end
   File.open(path, 'w') do |file|
     file.write <<-EOS
-
-# YAML Front Matter
 ---
 layout: post
-title: #{title}
-date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
+title:  "#{title}"
+date:   #{Time.now.strftime('%Y-%m-%d %k:%M:%S')} +0300
 ---
 EOS
 end
-
-# invoke Textmate to edit file
-# sh "mate #{path}"
-
-    end
+# invoke code to edit file
+ sh "code -g #{path}:6"
+ end
