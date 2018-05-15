@@ -1,16 +1,20 @@
 # Installation Guide
-1. Download and install [rubyinstaller-2.2.6-x64](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe)
+* Download and install [rubyinstaller-2.2.6-x64](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe)
+* Clone this repository:
 
-2. Clone this repository
-`git clone https://github.com/Manivela/Manivela.github.io.git`
+    `git clone https://github.com/Manivela/Manivela.github.io.git`
+* Change into your new directory:
 
-3. Change into your new directory
-`~ $ cd Manivela.github.io.git`
+    `cd Manivela.github.io.git`
+* Install these two if you are on ubuntu or the next command will fail:
+    ~~~~
+    sudo apt-get install ruby-dev
+    sudo apt-get install zlib1g-dev
+    ~~~~
+* Install Jekyll and other dependencies from the GitHub Pages gem:
 
-4. Install Jekyll and other dependencies from the GitHub Pages gem:
-`~ $ install bundle `
+    `install bundle `
+* Build the site on the preview server:
 
-5. Build the site on the preview server
-`~/Manivela.github.io.git $ bundle exec jekyll serve`
-
-6. Now browse to http://localhost:4000
+    `bundle exec jekyll serve`
+* Now browse to `http://localhost:4000`
