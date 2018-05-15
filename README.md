@@ -14,4 +14,3 @@
 `~/Manivela.github.io.git $ bundle exec jekyll serve`
 
 6. Now browse to http://localhost:4000
-<details>
