@@ -2,7 +2,7 @@
 * Download and install [rubyinstaller-2.2.6-x64](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe)
 * Clone this repository:
 
-    `git clone https://github.com/Manivela/blog
+    `git clone https://github.com/Manivela/blog`
 * Change into your new directory:
 
     `cd blog`
