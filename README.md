@@ -6,6 +6,9 @@
 * Change into your new directory:
 
     `cd blog`
+* Make sure bundler is installed:
+
+    `gem install bundler`
 * Install these two if you are on ubuntu or the next command will fail:
     ~~~~
     sudo apt-get install ruby-dev
@@ -13,7 +16,7 @@
     ~~~~
 * Install Jekyll and other dependencies from the GitHub Pages gem:
 
-    `install bundle `
+    `bundle install`
 * Build the site on the preview server:
 
     `bundle exec jekyll serve`
