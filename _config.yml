@@ -27,7 +27,8 @@ github_username: Manivela
 google_analytics: UA-125410779-1
 
 # Disqus settings
-disqus_shortname: ynsglc
+disqus:
+  shortname: ynsglc
 
 # Git Settings
 github: [metadata]
