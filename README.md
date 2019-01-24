@@ -1,6 +1,4 @@
 # Installation Guide
-
-- Download and install [rubyinstaller-2.2.6-x64](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe)
 - Clone this repository:
 
   `git clone https://github.com/Manivela/blog`
@@ -9,11 +7,13 @@
 
   `cd blog`
 
-- Using docker:
+- Using docker-compose:
 
       `docker-compose up`
 
   OR if you don't want to use docker:
+
+- Download and install [rubyinstaller-2.2.6-x64](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe)
 
 - Make sure bundler is installed:
 
@@ -33,3 +33,7 @@
   `bundle exec jekyll serve`
 
 - Now browse to `http://localhost:4000`
+
+
+- Use `bundle update` to update all dependencies.
+
