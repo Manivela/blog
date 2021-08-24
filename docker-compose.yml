@@ -2,8 +2,8 @@ version: "2"
 
 services:
   jekyll:
-    image: bretfisher/jekyll-serve
+    image: jekyll/jekyll
     volumes:
-      - .:/site
+      - "$PWD:/srv/jekyll"
     ports:
       - "4000:4000"
