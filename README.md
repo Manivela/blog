@@ -1,4 +1,5 @@
 # Installation Guide
+
 - Clone this repository:
 
   `git clone https://github.com/Manivela/blog`
@@ -7,11 +8,15 @@
 
   `cd blog`
 
-- Using docker-compose:
+- Using docker-compose, build the site on the preview server:
 
       `docker-compose up`
 
-  OR if you don't want to use docker:
+- Browse to [http://localhost:4000](http://localhost:4000)
+
+- Use `docker-compose run jekyll bundle update` to update all dependencies.
+
+## OR if you don't want to use docker:
 
 - Download and install [rubyinstaller-2.2.6-x64](https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.6-x64.exe)
 
@@ -32,8 +37,6 @@
 
   `bundle exec jekyll serve`
 
-- Now browse to `http://localhost:4000`
-
+- Browse to [http://localhost:4000](http://localhost:4000)
 
 - Use `bundle update` to update all dependencies.
-
